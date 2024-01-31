@@ -40,5 +40,3 @@ pipeline {
         }
     }
 }
-
-# необходим репозиторий в docker hub и webhook
