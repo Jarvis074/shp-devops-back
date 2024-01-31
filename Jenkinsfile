@@ -3,6 +3,7 @@ pipeline {
     environment {
         IMAGE_NAME = "jarvis07/ryzhenkov-numbers"
         HUB_CRED_ID = "final_devops_task_dockerhub"
+        PROJECT_DIR = "ryzhenkov_numbers"
     }
     stages {
          stage("build") {
