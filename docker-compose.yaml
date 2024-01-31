@@ -1,0 +1,5 @@
+services:
+  backend:
+    image: jarvis07/jenkins:latest
+    ports:
+      - 8108:80
